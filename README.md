@@ -2,7 +2,7 @@
 
 Which attributes drive weekly wages? (Outfield vs. Goalkeepers)
 
-Live demo: [Streamlit app link]
+Live demo: [Streamlit app link][https://fifa-22-wage-analysis-ihqiw9m8jsappywhqytznpe.streamlit.app/]
 
 GitHub repo: https://github.com/mustafaoun/fifa-22-wage-analysis
 
