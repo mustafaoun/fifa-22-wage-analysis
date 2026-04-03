@@ -3,10 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load the cleaned data (adjust file path to your saved CSV)
-# Assuming you saved df_outfield_clean and df_gk_clean as CSV files
-df_outfield = pd.read_csv('df_outfield_clean.csv')
-df_gk = pd.read_csv('df_gk_clean.csv')
+# Load the cleaned data from the data folder
+df_outfield = pd.read_csv('data/df_outfield_clean.csv')
+df_gk = pd.read_csv('data/df_gk_clean.csv')
 
 st.title("FIFA 22 EDA: What Predicts Player Wage?")
 st.markdown("Outfield players vs. Goalkeepers – correlation analysis and data quality audit.")
@@ -45,5 +44,5 @@ st.pyplot(fig2)
 # Cleanlab flagged players (if you saved the flagged indices)
 st.subheader("Potential Label Issues (Cleanlab)")
 # Load flagged players
-flagged_players = pd.read_csv('flagged_players.csv')
+flagged_players = pd.read_csv('data/flagged_players.csv')
 st.dataframe(flagged_players[['short_name', 'wage_eur', 'wage_category']].head(5))

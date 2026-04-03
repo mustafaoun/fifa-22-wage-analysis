@@ -89,13 +89,13 @@ Mitigation: Refresh the analysis annually with new FIFA data; consider Spearman 
 
 The app dashboard and visualizations are shown in these samples (streamlit screenshots):
 
-![Main view](Capture1.PNG)
+![Main view](images/Capture1.PNG)
 
-![Correlation heatmap](Capture2.PNG)
+![Correlation heatmap](images/Capture2.PNG)
 
-![Scatter plot](Capture3.PNG)
+![Scatter plot](images/Capture3.PNG)
 
-![Cleanlab flagged sample](Capture4.PNG)
+![Cleanlab flagged sample](images/Capture4.PNG)
 
 ## Live demo & code
 
