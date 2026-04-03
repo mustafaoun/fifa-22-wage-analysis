@@ -45,7 +45,7 @@ If a club used this analysis to adjust wage offers for 50 new signings per year:
 
 Assumptions based on median wage differences between attribute tiers; methodology available in notebook.
 
-## Key findings (plain English)
+## Key findings
 
 **Outfield players (n=17,107)**
 
